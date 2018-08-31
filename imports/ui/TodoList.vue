@@ -24,7 +24,9 @@
     methods:{
       deleteItem(id){
         this.$modal.show(DeleteItem,{id: id},{
-
+          width: 400,
+          pivotY: 0.3,
+          height: 'auto',
         });
       }
     }
